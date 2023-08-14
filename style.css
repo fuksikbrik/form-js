@@ -1,0 +1,30 @@
+#input{
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    height: 50px;
+    width: 250px;
+}
+.login{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.pasword{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.error{
+    background-color: red;
+    padding: 50px 20px;
+    width: 250px;
+    transition: 2s;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    opacity: 1;
+}
+.disabled{
+    opacity: 0;
+}
